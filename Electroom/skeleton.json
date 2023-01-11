@@ -1,0 +1,117 @@
+{
+"skeleton": {
+	"hash": "LdHAnO/lAQNGwXA53Io3BHeaMuI",
+	"spine": "3.8.75",
+	"x": -286.41,
+	"y": -1.06,
+	"width": 537,
+	"height": 561,
+	"images": "../Resources/Bovisal PvZ Clone/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 636.71, "rotation": 91.05 },
+	{ "name": "eye", "parent": "body", "length": 54.11, "rotation": -1.05, "x": 391.73, "y": 8.74 }
+],
+"slots": [
+	{ "name": "Sprite_Electric_Mushroom_Body", "bone": "body", "attachment": "Sprite_Electric_Mushroom_Body" },
+	{ "name": "Sprite_Electric_Mushroom_Eye", "bone": "eye", "attachment": "Sprite_Electric_Mushroom_Eye" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Sprite_Electric_Mushroom_Body": {
+				"Sprite_Electric_Mushroom_Body": { "x": 279.72, "y": 12.78, "rotation": -91.05, "width": 537, "height": 561 }
+			},
+			"Sprite_Electric_Mushroom_Eye": {
+				"Sprite_Electric_Mushroom_Eye": { "x": 5.3, "y": -1.06, "rotation": -90, "width": 63, "height": 90 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle_0": {
+		"bones": {
+			"body": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.95, "y": 1.05 },
+					{ "time": 2 }
+				]
+			},
+			"eye": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.1, "y": 1.1 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 1.1, "y": 1.1 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"idle_1": {
+		"bones": {
+			"body": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.95, "y": 1.05 },
+					{ "time": 2 }
+				]
+			},
+			"eye": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 0.33, "y": 17.9, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.33, "y": 17.9 },
+					{ "time": 1.6667 }
+				]
+			}
+		}
+	},
+	"idle_2": {
+		"bones": {
+			"eye": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -0.3, "y": -16.54, "curve": "stepped" },
+					{ "time": 1.3333, "x": -0.3, "y": -16.54 },
+					{ "time": 1.6667 }
+				]
+			},
+			"body": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.95, "y": 1.05 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"idle_3": {
+		"bones": {
+			"body": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.95, "y": 1.05 },
+					{ "time": 2 }
+				]
+			},
+			"eye": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 0.33, "y": 17.9, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0.33, "y": 17.9 },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.1667, "x": -0.3, "y": -16.54, "curve": "stepped" },
+					{ "time": 1.4333, "x": -0.3, "y": -16.54 },
+					{ "time": 1.6667 }
+				]
+			}
+		}
+	}
+}
+}

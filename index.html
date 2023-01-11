@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@esotericsoftware/spine-player@4.0.*/dist/iife/spine-player.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.0.*/dist/spine-player.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="player-container" style="width: 500px; height: 700px;"></div>
+</body>
+<script>
+    new spine.SpinePlayer("player-container", {
+        jsonUrl: "/Electroom/skeleton.json",
+	    atlasUrl: "/Electroom/skeleton.atlas",
+        showControls: false,
+        alpha: true, // Enable player translucency
+        backgroundColor: "#00000000", // Background is fully transparent
+        success: player => {
+          player.animationState.setAnimation(0, "idle_" + Math.floor(Math.random() * 4), true);
+        },
+    });
+</script>
+<style>
+    body {
+        background: white;
+    }
+</style>
+</html>

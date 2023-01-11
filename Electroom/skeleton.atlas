@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 1192,541
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprite_Electric_Mushroom
+  rotate: true
+  xy: 2, 2
+  size: 537, 561
+  orig: 555, 573
+  offset: 15, 11
+  index: -1
+Sprite_Electric_Mushroom_Body
+  rotate: true
+  xy: 565, 2
+  size: 537, 561
+  orig: 537, 561
+  offset: 0, 0
+  index: -1
+Sprite_Electric_Mushroom_Eye
+  rotate: false
+  xy: 1128, 449
+  size: 62, 90
+  orig: 63, 90
+  offset: 1, 0
+  index: -1
